@@ -1,0 +1,163 @@
+/* 
+  Localizable.strings
+  QRcode
+
+  Created by Pavels Lukasenko on 11/17/13.
+
+*/
+
+"locale" = "lt";
+"raloco qr scan" = "Raloco QR Scan";
+"app name" = "Raloco";
+"scan" = "Brūkšninių kodų skaitytuvas";
+"scanner" = "Skaitytuvas";
+"scan only qr codes" = "QR-kodų skaitytuvas";
+"my discounts" = "Mano nuolaidos";
+"help" = "Pagalba";
+"settings" = "Nustatymai";
+"history" = "Istorija";
+"scan msg1" = "Nelaikykite kameros per arti";
+"scan msg2" = "Kamera neįjungta";
+"scan time" = "Laikas";
+"justnow" = "Dabar";
+"camera2" = "Pakreipkite prietaisą horizontaliai";
+"result" = "Rezultatas";
+"sleepmode" = "Norėdami tęsti, spauskite bet kurį mygtuką";
+/*new variables*/
+"generator"="Пeneratorius";
+"next"="Sekantis";
+"esubject"="Email Tema";
+"etext"="Tekstas";
+"message"="Pranešimas";
+"nodata"="Nėra ką atvaizduoti";
+
+/* preview */
+"preview" = "Peržiūra";
+/* CustomListPreview */
+"contact" = "Kontaktai";
+"link" = "Tinklalapio adresas";
+"text" = "Paprastasis tekstas";
+"sms" = "Siųsti SMS žinutę";
+"phone" = "Telefono numeris";
+"email" = "El. paštas";
+"wifi" = "WiFi prisijungimo duomenys";
+"geo" = "Vietovė";
+"latitude" = "Platuma";
+"longitude" = "Ilguma";
+"clp msg1" = "Su šiais duomenimis skambutis negalimas";
+"clp msg2" = "Su šiais duomenimis įtraukimas į kontaktus negalimas ";
+"clp msg3" = "Miego būsena";
+"clp msg4" = "QR-kodo arba brūkšninio kodo nerasta";
+"google search" = "Žiniatinklio paieška";
+"google product" = "Produkto paieška";
+"wifi1 copy" = "Kopijuoti pavadinimą/vardą";
+"wifi2 copy" = "Kopijuoti slaptažodį";
+"wifi pass" = "Slaptažodis";
+"wifi name" = "Pavadinimas/vardas";
+"work" = "darbo";
+"home" = "namų";
+"mobile" = "mobilus";
+"fax" = "faksas";
+/* CustomListPreview icon subtitle */
+"call make" = "Skambinti dabar";
+"contact add" = "Naujas kontaktas";
+"text copy" = "Kopijuoti";
+"text copied" = "Nukopijuota";
+"share" = "Bendrinti";
+"raw" = "Neapdoroti rezultatai";
+"raw output" = "Duomenų išvedimas be apdorojimo";
+"email send" = "Siųsti laišką";
+"sms send" = "Siųsti SMS žinutę";
+"geo find" = "Atidaryti žemėlapį";
+"link open" = "Atidaryti nuorodą";
+"contact copy" = " Kopijuoti pavadinimą/vardą ";
+/* more */
+"more" = "Daugiau";
+"about" = "Apie";
+"help" = "Pagalba";
+"rate" = "Vertinti";
+"terms" = "Paslaugų teikimo sąlygos";
+"ratesub" = "Jūsų įvertinimas mums svarbus.";
+/* AboutActivity */
+"help1" = "QR-kodo skaitytuvas";
+"help2" = "Ši programa naudoja Jūsų prietaiso kamerą brūkšninių kodų bei QR-kodų nuskaitymui. Nukreipkite kamerą į kodą, kad galėtumėte peržiūrėti užkoduotus duomenis.";
+"help7" = "Palaikomi formatai";
+"help8" = "EAN-13/UPC-A, UPC-E, EAN-8, Code 128, Code 93, Code 39, Codabar, Interleaved 2/5, QR-Code и DataBar.";
+
+/* HelpActivity */
+"help3" = "Kaip naudotis";
+"help4" = "Įjunkite skaitytuvą, nukreipkite jį į kodą, ne laikykite per arti, kad aplink kodą liktų pakankamai vietos. Nebandykite perskaityti kodo įstrižai.";
+"help5" = "Kaip sukurti";
+"help6" = "Norėdami sukurti savo QR-kodą arba pateikti užklausą dėl lipdukų, apsilankykite: http://qrcode.raloco.com.";
+"help9" = "Problemos ir klausimai";
+"help10" = "Jei turime problemų arba klausimų, susisiekite su mumis: host@raloco.com.";
+"help11" = "Privatumo politika";
+"help12" = "http://raloco.com/en/app_privacy";
+"help13" = "Nuskaitymo patarimai";
+"help14" = "Norėdami sėkmingai nuskaityti duomenis, įsitikinkite, kad kamera nėra laikoma per arti kodo, kad patalpoje užtenka šviesos, ir kad kamera yra sufokusuota.";
+/* HelpScanActivity */
+"helps1" = "Skirtingi nuotoliai";
+"helps2" = "Pabandykite priartinti arba nutolinti prietaisą, kad surastumėte optimalų skaitytuvo laikymo nuotolį.";
+"helps3" = "Idealus kontrastas";
+"helps4" = "Pakankamas apšvietimas reiškia geresnį nuskaitymą. Taip pat įsitikinkite, kad ant kodo nebūtų atspindžių arba šešėlio.";
+"helps5" = "Nukreipkite kamerą, kad kodas būtų fokuse";
+"helps6" = "Įsitikinkite, kad kamera nėra laikoma per arti kodo yra sufokusuota.";
+"helps7" = "Nejudinkite kameros";
+"helps8" = "Nenuskaitykite kodo įstrižai ir nejudinkite kameros.";
+/* Settings */
+"set1" = "Nuorodos atidarymas";
+"set2" = "Automatiškai atidaryti nuorodą po sėkmingo nuskaitymo.";
+"set3" = "Vibracija";
+"set4" = "Sėkmingo nuskaitymo atveju įjungiama vibracija";
+"set5" = "Pyptelėjimas";
+"set6" = "Sėkmingo nuskaitymo atveju išgirsite pyptelėjimą.";
+"set7" = "Istorija";
+"set8" = "Išsaugoti nuskaitymų istoriją.";
+"set9" = "Prietaiso paleidimas";
+"set10" = "Pasirinkite, ką įjungti paleidimo metu.";
+"set11" = "Foninis apšvietimas";
+"set12" = "Jei tamsu, įjungti foninį apšvietimą.";
+"set13" = "Įspėjimas";
+"set14" = "Ar tikrai norite pašalinti turimą istoriją?";
+"set15" = "Fono spalva";
+"set16" = "Pasirinkite fono spalvą";
+"set17" = "Kartotiniai nuskaitymai";
+"set18" = "Išsaugoti dubliuojamų nuskaitymų rezultatus istorijoje.";
+"set19" = "Paieška internete";
+"set20" = "Kai galima, automatiškai ieškoti žiniatinklyje.";
+"set21" = "Paieškos sistema";
+"set22" = "Norėdami atlikti paiešką žiniatinklyje, pasirinkite Google, Bing, Yahoo, Yandex arba Baidu.";
+"set23" = "Istorija pašalinta";
+"set24" = "Nevyksta nuskaitymas?";
+"set25" = "Kompleksinio nuskaitymo režimas";
+"set26" = "Nuskaityti ir išsaugoti kodus be peržiūros";
+"set27" = "Specializuotos paieškos URL";
+"set28" = "Nuskaitymo rezultatai bus pridėti prie šio URL";
+"set29" = "Kopijuoti į iškarpinę";
+"set30" = "Iš karto po nuskaitymo kopijuoti rezultatą į iškarpinę";
+"set31" = "Globalinė padėties nustatymo sistema (GPS) ";
+"set32" = "Pridėti geografinio pozicionavimo duomenis";
+"set33" = "Ieškoti";
+"set34" = "Eksportuoti duomenis";
+"set35" = "Papildomi nustatymai";
+
+"attention" = "Dėmesio";
+"continuetxt" = "Ar tikrai norite tęsti?";
+"cancel" = "Atšaukti";
+"yes" = "Taip";
+"no" = "Ne";
+
+
+
+/* PrivacyActivity */
+
+"po1" = "We do not collect any personal information";
+"po2" = "This application does not collect or transmit any user`s personally identifiable information. No personal information is used, stored, secured or disclosed by services this application works with. The only information this application records is an encoded data of scanned QR-codes and barcodes.";
+"po3" = "Data Disclaimer";
+"po4" = "This Privacy Statement does not apply to links you follow from this application to other sites, services, applications. For example, if you use the Sharing features to send a message or to post on a social network, the information you send will be visible to others. In order to understand how your information is handled by other sites, services and applications, please refer to their respective privacy policies. This Privacy Statement does not apply to any decoded data stored in QR-codes or Barcodes.";
+"po5" = "Changes to this Policy";
+"po6" = "This policy may be revised at any time. By using our web site or applications, you signify your acceptance of the revised policy. We encourage you to periodically review this policy so you know how we are protecting your information.";
+"po7" = "License and Copyright";
+"po8" = "This project is based on the zBar open source barcode scanning library, and is licensed to you under the terms of the GNU LESSER GENERAL PUBLIC LICENSE, available at: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html.";
+
+

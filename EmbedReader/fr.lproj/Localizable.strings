@@ -1,0 +1,159 @@
+/* 
+  Localizable.strings
+  QRcode
+
+  Created by Pavels Lukasenko on 11/17/13.
+
+*/
+
+"locale"="fr";
+"raloco_qr_scan"="Raloco QR Scan";
+"app_name"="Raloco";
+"scan"="Lecteur de code barres";
+"scanner"="Lecteur";
+"scan_only_qr_codes"="Lecteur de code QR";
+"my_discounts"="Mes réductions";
+"help"="Aide";
+"settings"="Réglages";
+"history"="Histoire";
+"scan_msg1"="Ne tenez pas le caméra trop près";
+"scan_msg2"="Le caméra n\'est pas disponible";
+"scan_time"="Temps";
+"justnow"="En ce moment";
+"camera2"="Tournez l\'appareil en position horizontale";
+"result"="Résultat";
+"sleepmode"="Cliquez pour continuer";
+/*new variables*/
+"generator"="Générateur";
+"next"="Continuer";
+"esubject"="Objet de l'email";
+"etext"="Email texte";
+"message"="Le message";
+"nodata"="Aucune donnée à afficher";
+
+"preview"="Avant-première";
+
+"contact"="Contact";
+"link"="Adresse Web";
+"text"="Texte simple";
+"sms"="Envoyer des SMS";
+"phone"="Numéro de téléphone";
+"email"="Courriel";
+"wifi"="Identifiants de WiFi";
+"geo"="Emplacement";
+"latitude"="Latitude";
+"longitude"="Longitude";
+"clp_msg1"="Impossible d\'appeler en utilisant ces données";
+"clp_msg2"="Impossible d\'ajouter les contacts en utilisant ces données";
+"clp_msg3"="Mode de veille";
+"clp_msg4"="Aucun code QR ou code-barres n\'est trouvé";
+"google_search"="Recherche Web";
+"google_product"="Recherche d\'un produit";
+"wifi1_copy"="Copier le nom";
+"wifi2_copy"="Copier le mot de passe";
+"wifi_pass"="Mot de passe";
+"wifi_name"="Nom";
+"work"="travail";
+"home"="maison";
+"mobile"="maison";
+"fax"="maison";
+
+"call_make"="Appeler tout de suite";
+"contact_add"="Nouveau contact";
+"text_copy"="Copier";
+"text_copied"="Copié";
+"share"="Le partager";
+"raw"="Sortie crue";
+"raw_output"="Sortie de données sans traitement";
+"email_send"="Envoyer un courriel";
+"sms_send"="Envoyer des SMS";
+"geo_find"="Ouvrir la carte";
+"link_open"="Ouvrir le lien";
+"contact_copy"="Copier le nom";
+
+"more"="Suite";
+"about"="A propos de";
+"help"="Aide";
+"rate"="Evaluer";
+"terms"="Conditions générales d’utilisation";
+"ratesub"="Votre évaluation est importante pour nous.";
+
+"help1"="Lecteur de code QR";
+"help2"="Cette application utilise la caméra de votre appareil afin de lire des codes-barres et des codes QR. Dirigez l\'appareil vers le code et vous verrez une avant-première des données codées.";
+"help7"="Formats soutenus";
+"help8"="EAN-13/UPC-A, UPC-E, EAN-8, Code 128, Code 93, Code 39, Codabar, Interleaved 2/5, QR-Code and DataBar.";
+
+"help3"="Comment utiliser";
+"help4"="Faites fonctionner le scanner, dirigez-le vers le code, pas trop près, pour qu\'il y ait assez d\'espace vide autour du code. N\'essayez pas de lire le code sur la diagonale.";
+"help5"="Comment créer";
+"help6"="Afin de créer vos propres codes QR et demander des autocollants, veuillez visiter : http://qrcode.raloco.com.";
+"help9"="Problèmes et questions";
+"help10"="Veuillez nous contacter si vous avez des problèmes ou des questions : host@raloco.com.";
+"help11"="Politique de confidentialité";
+"help12"="http://raloco.com/en/app_privacy";
+"help13"="Conseils pour la numérisation";
+"help14"="Afin de scanner avec succès, vérifiez si l\'appareil n\'est pas trop près du code, s\'il y a suffisamment de lumière, si la mise au point de la caméra est faite.";
+
+"helps1"="Distances différentes";
+"helps2"="Essayez de déplacer votre appareil plus ou moins loin pour trouver la distance optimale pour la numérisation.";
+"helps3"="Contraste idéale";
+"helps4"="La lumière suffisante fait la numérisation plus vite. Assurez-vous qu\'il n\'y a pas d\'éclats ou d\'ombres sur le code.";
+"helps5"="Faites la mise au point sur le code";
+"helps6"="Assurez-vous que votre appareil n\'est pas trop près du code et que vous avez fait la mise au point.";
+"helps7"="Restez immobile";
+"helps8"="Ne lisez pas le code sur la diagonale et n\'agitez pas votre appareil.";
+
+"set1"="Ouvrir un lien";
+"set2"="Ouvrir automatiquement un lien après une numérisation réussie.";
+"set3"="Vibrer";
+"set4"="Vibrer si la numérisation est réussie.";
+"set5"="Bipper";
+"set6"="Bipper si la numérisation est réussie.";
+"set7"="Histoire";
+"set8"="Enregistrer l\'histoire de vos numérisations.";
+"set9"="Action de démarrage";
+"set10"="Choisissez ce que vous voulez lancer au démarrage.";
+"set11"="Rétroéclairage";
+"set12"="Allumez le rétroéclairage s\'il est trop sombre.";
+"set13"="Avertissement";
+"set14"="Voulez-vous supprimer l\'histoire actuelle?";
+"set15"="Couleur de fond";
+"set16"="Choisir la couleur de fond";
+"set17"="Numérisations répétées";
+"set18"="Enregistrer les doubles des résultats de numérisation dans l\'histoire.";
+"set19"="Recherche Internet";
+"set20"="Le cas échéant, effectuer automatiquement une recherche sur le web.";
+"set21"="Moteur de recherche";
+"set22"="Pour effectuer une recherche sur le web choisissez Google, Bing, Yahoo, Yandex ou Baidu.";
+"set23"="L\'histoire a été retirée";
+"set24"="Pas de numérisation ?";
+"set25"="Mode de numérisation totale";
+"set26"="Scanner et enregistrer les codes sans avant-première";
+"set27"="Recherche personnalisée URL";
+"set28"="Les résultats de la numérisation seront ajoutés à la fin de cet URL";
+"set29"="Copier au presse-papiers";
+"set30"="Copier au presse-papiers immédiatement après la numérisation";
+"set31"="GPS";
+"set32"="Ajouter les données de géolocalisation";
+"set33"="Recherche";
+"set34"="Exporter des données";
+"set35"="Réglages avancés";
+
+"attention"="Attention";
+"continuetxt"="Êtes-vous sûr de vouloir continuer?";
+"cancel"="Annuler";
+"yes"="Oui";
+"no"="Non";
+
+/* PrivacyActivity */
+
+"po1" = "We do not collect any personal information";
+"po2" = "This application does not collect or transmit any user`s personally identifiable information. No personal information is used, stored, secured or disclosed by services this application works with. The only information this application records is an encoded data of scanned QR-codes and barcodes.";
+"po3" = "Data Disclaimer";
+"po4" = "This Privacy Statement does not apply to links you follow from this application to other sites, services, applications. For example, if you use the Sharing features to send a message or to post on a social network, the information you send will be visible to others. In order to understand how your information is handled by other sites, services and applications, please refer to their respective privacy policies. This Privacy Statement does not apply to any decoded data stored in QR-codes or Barcodes.";
+"po5" = "Changes to this Policy";
+"po6" = "This policy may be revised at any time. By using our web site or applications, you signify your acceptance of the revised policy. We encourage you to periodically review this policy so you know how we are protecting your information.";
+"po7" = "License and Copyright";
+"po8" = "This project is based on the zBar open source barcode scanning library, and is licensed to you under the terms of the GNU LESSER GENERAL PUBLIC LICENSE, available at: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html.";
+
+

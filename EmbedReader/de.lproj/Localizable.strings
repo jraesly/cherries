@@ -1,0 +1,143 @@
+
+
+"locale"="de";
+"raloco_qr_scan"="Raloco QR Scan";
+"app_name"="Raloco";
+"scan"="Barcode scanner";
+"scanner"="Scanner";
+"scan_only_qr_codes"="Expressantwortcode scanner";
+"my_discounts"="Meine Rabatte";
+"help"="Hilfe";
+"settings"="Einstellungen";
+"history"="Verlauf";
+"scan_msg1"="Halten Sie die Kamera nicht zu dicht";
+"scan_msg2"="Die Kamera ist nicht verfügbar";
+"scan_time"="Zeit";
+"justnow"="Soeben";
+"camera2"="Drehen Sie das Gerät in eine horizontale Lage";
+"result"="Ergebnis";
+"sleepmode"="Klicken Sie um fortzufahren";
+/*new variables*/
+"generator"="Generator";
+"next"="Fortsetzen";
+"esubject"="das Thema";
+"etext"="der Text";
+"message"="die Nachricht";
+"nodata"="Nichts anzuzeigen";
+
+/* preview */
+"preview"="Vorschau";
+/* CustomListPreview */
+"contact"="Kontakt";
+"link"="Internetadresse";
+"text"="Flächentext";
+"sms"="Senden Sie eine SMS";
+"phone"="Telefonnummer";
+"email"="E-Mail";
+"wifi"="WiFi-Anmeldeinformationen";
+"geo"="Ort";
+"latitude"="Breite";
+"longitude"="Breite";
+"clp_msg1"="Anruf fehlgeschlagen wegen falscher Daten";
+"clp_msg2"="Kann nicht zu Kontakten hinzugefügt werden wegen falscher Daten";
+"clp_msg3"="Schlafmodus";
+"clp_msg4"="Der Expressantwortcode oder Barcode konnte nicht gefunden werden";
+"google_search"="Internetsuche";
+"google_product"="Produktsuche";
+"wifi1_copy"="Namen kopieren";
+"wifi2_copy"="Passwort kopieren";
+"wifi_pass"="Passwort";
+"wifi_name"="Name";
+"work"="Arbeit";
+"home"="Festnetz";
+"mobile"="Mobil";
+"fax"="Fax";
+/* CustomListPreview icon subtitle */
+"call_make"="Jetzt anrufen";
+"contact_add"="Neuer Kontakt";
+"text_copy"="Kopieren";
+"text_copied"="kopiert";
+"share"="Teilen";
+"raw"="Unbearbeitete Ausgabe";
+"raw_output"="Datenausgabe ohne Verarbeitung";
+"email_send"="Email senden";
+"sms_send"="SMS senden";
+"geo_find"="Karte öffnen";
+"link_open"="Link öffnen";
+"contact_copy"="Namen kopieren";
+/* more */
+"more"="Mehr";
+"about"="Über";
+"help"="Hilfe";
+"rate"="Bewerten Sie uns";
+"terms"="Nutzungsbedingungen";
+"ratesub"="Ihre Bewertung ist wichtig für uns.";
+/* AboutActivity */
+"help1"="Expressantwortcodescanner";
+"help2"="Diese Anwendung nutzt die Kamera Ihres Gerätes um Barcodes und Expressantwortcodes zu scannen. Halten Sie die Kamera auf den Code und Sie sehen eine hübsche Vorschau der kodierten Daten.";"help7"="Unterstützte Dateiformate";
+"help8"="EAN-13/UPC-A, UPC-E, EAN-8, Code 128, Code 93, Code 39, Codabar, Interleaved 2/5, QR-Code and DataBar.";
+
+/* HelpActivity */
+"help3"="Benutzungshinweise";
+"help4"="Starten Sie den Scanner, halten Sie Ihn an den Code, nicht zu dicht, sodass genug freier Platz um den Code herum bleibt. Versuchen Sie nicht den Code aus der Diagonale zu lesen.";
+"help5"="Herstellungshinweise";
+"help6"="Um Ihren eigenen Expressantwortcodes und Anfrageaufkleber zu entwerfen, besuchen Sie: http://qrcode.raloco.com.";
+"help9"="Probleme und Fragen";
+"help10"="Bitte kontaktieren Sie uns sollten Sie irgendwelche Probleme oder Fragen haben: host@raloco.com.";
+"help11"="Datenschutz";
+"help12"="http://raloco.com/en/app_privacy";
+"help13"="Scan Hinweise";
+"help14"="Um einen erfolgreichen Scan durchzuführen, stellen Sie sicher, dass die Kamera nicht zu dicht an dem Code ist, dass es genug Licht gibt und dass die Kamera fokussiert ist.";
+/* HelpScanActivity */
+"helps1"="Unterschiedliche Entfernungen";
+"helps2"="Versuchen Sie Ihr Gerät weiter entfernt oder näher heran zu bewegen um eine optimale Scandistanz zu finden.";
+"helps3"="Idealer Kontrast";
+"helps4"="Genug Licht bedeutet einen schnelleren Scan. Stellen Sie ebenfalls Sicher, dass kein Glas oder Schatten über den Codes sind.";
+"helps5"="Fokussieren Sie den Code";
+"helps6"="Stellen Sie sicher, dass das Gerät nicht zu dicht an dem Code ist und dass die Kamera fokussiert ist.";
+"helps7"="Halten Sie still";
+"helps8"="Lesen Sie den Code nicht aus der Diagonale und schütteln Sie Ihr Gerät nicht.";
+/* Settings */
+"set1"="Link öffnen";
+"set2"="Automatisches Öffnen eines Links nach einem erfolgreichen Scan.";
+"set3"="Vibration";
+"set4"="Vibration wenn der Scan erfolgreich ist.";
+"set5"="Piepen";
+"set6"="Piepen wenn der Scan erfolgreich ist.";
+"set7"="Verlauf";
+"set8"="Speichern Sie den Verlauf Ihrer Scans.";
+"set9"="Hochfahren";
+"set10"="Wählen Sie aus was gestartet wird beim Hochfahren.";
+"set11"="Gegenlicht";
+"set12"="Schalten Sie das Gegenlicht an wenn es zu dunkel ist.";
+"set13"="Warnung";
+"set14"="Wollen Sie den aktuellen Verlauf löschen?";
+"set15"="Hintergrundfarbe";
+"set16"="Wählen Sie eine Hintergrundfarbe";
+"set17"="Wiederholte Scans";
+"set18"="Speichern Sie doppelte Scanergebnisse im Verlauf.";
+"set19"="Internetsuche";
+"set20"="Wenn anwendbar,automatische Durchführung der Internetsuche.";
+"set21"="Suchmaschine";
+"set22"="Um eine Internetsuche durchzuführen wählen Sie Google, Bing, Yahoo, Yandex oder Baidu.";
+"set23"="Verlauf wurde gelöscht";
+"set24"="Kein Scan?";
+"set25"="Massenscanmodus";
+"set26"="Scannen und speichern Sie Codes ohne Vorschau";
+"set27"="Benutzerdefinierte Suche URL";
+"set28"="Scanergebnisse werden dem Ende der URL hinzugefügt";
+"set29"="In Zwischenablage kopieren";
+"set30"="Sofort nach dem Scan die Ergebnisse in die Zwischenablage kopieren";
+"set31"="GPS";
+"set32"="Fügen Sie Ortungsdaten hinzu";
+"set33"="Suche";
+"set34"="Daten exportieren";
+"set35"="Erweiterte Einstellungen";
+
+"attention"="Achtung";
+"continuetxt"="Sind Sie sicher, dass Sie fortfahren wollen?";
+"cancel"="Abbrechen";
+"yes"="Ja";
+"no"="Nein";
+"mainmenu"="Hauptmenü";
+

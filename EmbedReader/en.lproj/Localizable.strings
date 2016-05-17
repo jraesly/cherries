@@ -1,0 +1,161 @@
+/* 
+  Localizable.strings
+  QRcode
+
+  Created by Pavels Lukasenko on 11/17/13.
+
+*/
+
+"locale"="en";
+"raloco_qr_scan"="Raloco QR Scan";
+"app_name"="Raloco";
+"scan"="Bar-code scanner";
+"scanner"="Scanner";
+"scan_only_qr_codes"="QR-code scanner";
+"my_discounts"="My discounts";
+"help"="Help";
+"settings"="Settings";
+"history"="History";
+"scan_msg1"="Do not hold the camera too close";
+"scan_msg2"="The camera is not available";
+"scan_time"="Time";
+"justnow"="Just now";
+"camera2"="Turn the device in a horizontal position";
+"result"="Result";
+"sleepmode"="Click to continue";
+/*new variables*/
+"generator"="Generator";
+"next"="Next";
+"esubject"="Email Subject";
+"etext"="Email Text";
+"message"="Message";
+"nodata"="No data to display";
+
+
+"preview"="Preview";
+
+"contact"="Contact";
+"link"="Web address";
+"text"="Plain text";
+"sms"="Send SMS";
+"phone"="Telephone number";
+"email"="E-Mail";
+"wifi"="WiFi credentials";
+"geo"="Location";
+"latitude"="Latitude";
+"longitude"="Longitude";
+"clp_msg1"="Unable to call using this data";
+"clp_msg2"="Can not add to contacts using this data";
+"clp_msg3"="Sleep mode";
+"clp_msg4"="There was no QR-code or bar-code found";
+"google_search"="Web search";
+"google_product"="Product search";
+"wifi1_copy"="Copy name";
+"wifi2_copy"="Copy password";
+"wifi_pass"="Password";
+"wifi_name"="Name";
+"work"="work";
+"home"="home";
+"mobile"="mobile";
+"fax"="fax";
+
+"call_make"="Call now";
+"contact_add"="New contact";
+"text_copy"="Copy";
+"text_copied"="Copied";
+"share"="Share it";
+"raw"="Raw output";
+"raw_output"="Data output without processing";
+"email_send"="Send mail";
+"sms_send"="Send SMS";
+"geo_find"="Open map";
+"link_open"="Open link";
+"contact_copy"="Copy Name";
+
+"more"="More";
+"about"="About";
+"help"="Help";
+"rate"="Rate us";
+"privacypolicy"="Privacy Policy";
+"terms"="Terms of Service";
+"ratesub"="Your rating is important for us.";
+
+"help1"="QR-code scanner";
+"help2"="This application uses the camera of your device to read bar-codes and QR-codes. Point the camera at the code and you will see a nice preview of the encoded data.";
+"help7"="Supported formats";
+"help8"="EAN-13/UPC-A, UPC-E, EAN-8, Code 128, Code 93, Code 39, Codabar, Interleaved 2/5, QR-Code and DataBar.";
+
+"help3"="How to use";
+"help4"="Run the scanner, point at the code, not too close, so that there is enough empty space around the code. Do not try to read the code on the diagonal.";
+"help5"="How to create";
+"help6"="To create your own QR-code and request stickers visit http://qrcode.raloco.com.";
+"help9"="Issues and questions";
+"help10"="Feel free to contact us if you have any problems or questions: host@raloco.com.";
+"help11"="Privacy Policy";
+"help12"="http://raloco.com/en/app_privacy";
+"help13"="Scan hints";
+"help14"="To make scan successful make sure the camera is not too close to the code, there is plenty of light, the camera is on focus.";
+
+"helps1"="Different distances";
+"helps2"="Try moving your device closer or further away to find optimal scan distance.";
+"helps3"="Ideal contrast";
+"helps4"="Enough light means faster scan. Also make sure there are no glares and shadows over the code.";
+"helps5"="Focus on code";
+"helps6"="Make sure your device is not too close to the code and the camera is in focus.";
+"helps7"="Hold still";
+"helps8"="Do not read the code on the diagonal as well as shake your device.";
+
+"set1"="Link open";
+"set2"="Automatically open a link after a successful scan.";
+"set3"="Vibrate";
+"set4"="Vibrate if scan is successful.";
+"set5"="Beep";
+"set6"="Beep if scan is successful.";
+"set7"="History";
+"set8"="Save history of your scans.";
+"set9"="Startup action";
+"set10"="Select what to launch on startup.";
+"set11"="Backlight";
+"set12"="Turn on backlight if too dark.";
+"set13"="Warning";
+"set14"="Do you want to remove current history?";
+"set15"="Background color";
+"set16"="Select background color";
+"set17"="Repeated scans";
+"set18"="Save duplicate scan results in history.";
+"set19"="Internet search";
+"set20"="When applicable, automatically perform a web search.";
+"set21"="Search engine";
+"set22"="To perform a web search select Google, Bing, Yahoo, Yandex or Baidu.";
+"set23"="History was removed";
+"set24"="Not scanning?";
+"set25"="Bulk scan mode";
+"set26"="Scan and save codes without preview";
+"set27"="Custom search URL";
+"set28"="Scan results will be added to the end of this URL";
+"set29"="Copy to clipboard";
+"set30"="Immediately after scan copy result to clipboard";
+"set31"="GPS";
+"set32"="Add Geolocation data";
+"set33"="Search";
+"set34"="Export data";
+"set35"="Advanced settings";
+
+"attention"="Attention";
+"continuetxt"="Are you sure you want to continue?";
+"cancel"="Cancel";
+"yes"="Yes";
+"no"="No";
+
+/* PrivacyActivity */
+
+"po1" = "We do not collect any personal information";
+"po2" = "This application does not collect or transmit any user`s personally identifiable information. No personal information is used, stored, secured or disclosed by services this application works with. The only information this application records is an encoded data of scanned QR-codes and barcodes.";
+"po3" = "Data Disclaimer";
+"po4" = "This Privacy Statement does not apply to links you follow from this application to other sites, services, applications. For example, if you use the Sharing features to send a message or to post on a social network, the information you send will be visible to others. In order to understand how your information is handled by other sites, services and applications, please refer to their respective privacy policies. This Privacy Statement does not apply to any decoded data stored in QR-codes or Barcodes.";
+"po5" = "Changes to this Policy";
+"po6" = "This policy may be revised at any time. By using our web site or applications, you signify your acceptance of the revised policy. We encourage you to periodically review this policy so you know how we are protecting your information.";
+"po7" = "License and Copyright";
+"po8" = "This project is based on the zBar open source barcode scanning library, and is licensed to you under the terms of the GNU LESSER GENERAL PUBLIC LICENSE, available at: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html.";
+
+

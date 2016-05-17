@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13D65" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Scan_history" representedClassName="Scan_history" syncable="YES">
+        <attribute name="data1" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="data2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="idl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scan_data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scan_data_clean" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Settings" representedClassName="Settings_temp" syncable="YES">
+        <attribute name="backlight" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="beep" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="bulk" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="history" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="Integer 16" syncable="YES"/>
+        <attribute name="sid" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="t1" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="t2" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="t3" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="t4" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="t5" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="t6" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="t7" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="t8" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="t9" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="t10" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="ts1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ts2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ts3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ts4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ts5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ts6" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vibrate" optional="YES" attributeType="Integer 16" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Scan_history" positionX="0" positionY="0" width="128" height="150"/>
+        <element name="Settings" positionX="0" positionY="0" width="128" height="390"/>
+    </elements>
+</model>
