@@ -913,6 +913,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/ZBarSDK\"",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.OTWL.QRcode;
 				PRODUCT_NAME = QRcode;
 				PROVISIONING_PROFILE = "";
@@ -948,6 +949,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/ZBarSDK\"",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.OTWL.QRcode;
 				PRODUCT_NAME = QRcode;
 				PROVISIONING_PROFILE = "";
