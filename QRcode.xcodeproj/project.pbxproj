@@ -897,6 +897,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -912,6 +913,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/ZBarSDK\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OTWL.QRcode;
 				PRODUCT_NAME = QRcode;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -931,6 +933,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -945,6 +948,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/ZBarSDK\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OTWL.QRcode;
 				PRODUCT_NAME = QRcode;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
