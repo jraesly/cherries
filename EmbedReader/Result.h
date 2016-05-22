@@ -2,7 +2,7 @@
 //  Result.h
 //  QRcode
 //
-//  Created by John Raesly on 4/6/15.
+//  Created by John Raesly on 4/11/16.
 //
 //
 
@@ -12,6 +12,7 @@
 #import <MessageUI/MessageUI.h>
 //#import <MessageUI/MFMailComposeViewController.h>
 //#import <AddressBookUI/AddressBookUI.h>
+#import <AVFoundation/AVFoundation.h>
 
 @class GADBannerView;
 @class Scan_history;

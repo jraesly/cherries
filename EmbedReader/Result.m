@@ -14,6 +14,10 @@
 #import "Scan_history.h"
 
 @interface Result ()
+@property (nonatomic, strong) AVCaptureSession *captureSession;
+@property (nonatomic, strong) AVCaptureVideoPreviewLayer *videoPreviewLayer;
+@property (nonatomic, strong) AVAudioPlayer *audioPlayer;
+@property (nonatomic) BOOL isReading;
 
 @end
 
@@ -52,8 +56,52 @@
     NSArray *titles;
     NSMutableDictionary *temp3;
     NSMutableString *temp4;
+    //this needs to be cleaned up
+    [self performSelectorOnMainThread:@selector(stopReading) withObject:nil waitUntilDone:NO];
+    
+    _isReading = NO;
+    
+    NSString *test = scan_data_clean;
+    NSString *audioFilePath = [[NSBundle mainBundle] pathForResource:test ofType:@"mp3"];
+    NSURL *pathAsURL = [NSURL URLWithString:audioFilePath];
+    
+    // Init the audio player.
+    NSError *error;
+    _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:pathAsURL error:&error];
+    
+    // Check out what's wrong in case that the player doesn't init.
+    if (error) {
+        NSLog(@"%@", [error localizedDescription]);
+    }
+    else{
+        // If everything is fine, just play.
+        [_audioPlayer play];
+    }
+    
+   /*
     switch(temp){
         //TEXT
+            
+            [self performSelectorOnMainThread:@selector(stopReading) withObject:nil waitUntilDone:NO];
+            
+            _isReading = NO;
+            
+            NSString *test = scan_data_clean;
+            NSString *audioFilePath = [[NSBundle mainBundle] pathForResource:test ofType:@"mp3"];
+            NSURL *pathAsURL = [NSURL URLWithString:audioFilePath];
+            
+            // Init the audio player.
+            NSError *error;
+            _audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:pathAsURL error:&error];
+            
+            // Check out what's wrong in case that the player doesn't init.
+            if (error) {
+                NSLog(@"%@", [error localizedDescription]);
+            }
+            else{
+                // If everything is fine, just play.
+                [_audioPlayer play];
+            }
         case 1:
             
             //TRIM DATA
@@ -327,7 +375,7 @@
                             block = true;
                         }
                     }
-                    */
+        
                  
                 }
             }
@@ -445,20 +493,12 @@
             imagesArr = [[NSMutableArray alloc] initWithObjects: @"mail.png", @"search.png", @"copy.png", @"info.png", nil];
             
         break;
+*/
     }
     self.navigationItem.title = NSLocalizedString([data1Arr objectAtIndex: temp], nill);
     resultText1.text = scan_data_clean_in;
     scan_data_clean = scan_data_clean_in;
-/*
-    //RESULT TEXT FIELD AUTO RESIZE
-    CGFloat fixedWidth = resultText1.frame.size.width;
-    CGSize newSize = [resultText1 sizeThatFits:CGSizeMake(fixedWidth, MAXFLOAT)];
-    CGRect newFrame = resultText1.frame;
-    newFrame.size = CGSizeMake(fmaxf(newSize.width, fixedWidth), newSize.height);
-    resultText1.frame = newFrame;
-    resultText1.text = scan_data_clean_in;
-    //[fixedWidth release];
-*/
+
     
     label1.text = scan_data_clean_in;
     //RESULT TEXT FIELD AUTO RESIZE
@@ -505,22 +545,7 @@
             }
     }
     
-    //ADMOB
-    /*
-    CGRect screenRect = [[UIScreen mainScreen] bounds];
-    CGFloat screenWidth = screenRect.size.width;
-    CGRect frm = self.bannerView.frame;
-    frm.size.width = screenWidth;
-    //NSLog(@"data %f",screenWidth);
-    self.bannerView.frame = frm;
 
-    self.bannerView.adUnitID = @"ca-app-pub-000000000/000000000";
-    self.bannerView.rootViewController = self;
-    
-    GADRequest *request = [GADRequest request];
-    request.testDevices = @[@"your_test_device_id"];
-    [self.bannerView loadRequest:request];
-    */
 }
 
 - (void)viewWillAppear:(BOOL)animated{
