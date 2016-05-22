@@ -661,7 +661,7 @@
 		DCFB4486136F7202004B3EE0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0730;
 				TargetAttributes = {
 					DCFB448E136F7202004B3EE0 = {
 						DevelopmentTeam = T8QVT6H972;
@@ -854,6 +854,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "";
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -901,7 +902,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"/Users/alexandermaslov/Documents/Apps/Admob/admob/GoogleMobileAdsSdkiOS-7.0.0",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -938,7 +938,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"/Users/alexandermaslov/Documents/Apps/Admob/admob/GoogleMobileAdsSdkiOS-7.0.0",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EmbedReader/QRcode-Prefix.pch";
