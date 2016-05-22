@@ -2,8 +2,10 @@
 //  EmbedReaderViewController.m
 //  EmbedReader
 //
-//  Created by spadix on 5/2/11.
+//  Created by John Raesly on 4/6/15.
 //
+//
+
 #import <AudioToolbox/AudioServices.h>
 #import <AVFoundation/AVAudioSession.h>
 #import <AVFoundation/AVFoundation.h>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523C74CF1CF222F600817D3C /* Images-3.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523C74CE1CF222F600817D3C /* Images-3.xcassets */; };
 		70160519183796610042475D /* flash2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70160518183796610042475D /* flash2@2x.png */; };
 		7016051B1837972D0042475D /* sun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7016051A1837972D0042475D /* sun@2x.png */; };
 		7016051D183797850042475D /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 7016051C183797850042475D /* sun.png */; };
@@ -109,7 +110,6 @@
 		70FB7F27183D073300ACB49F /* settingsg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FB7F23183D073300ACB49F /* settingsg@2x.png */; };
 		70FB7F29183D5D5100ACB49F /* shopbag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FB7F28183D5D5100ACB49F /* shopbag@2x.png */; };
 		70FB7F2B183D5D7600ACB49F /* shopbag.png in Resources */ = {isa = PBXBuildFile; fileRef = 70FB7F2A183D5D7600ACB49F /* shopbag.png */; };
-		70FB7F2D183E1CA700ACB49F /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70FB7F2C183E1CA700ACB49F /* images.xcassets */; };
 		DCFB4494136F7202004B3EE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFB4493136F7202004B3EE0 /* UIKit.framework */; };
 		DCFB4496136F7202004B3EE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFB4495136F7202004B3EE0 /* Foundation.framework */; };
 		DCFB4498136F7202004B3EE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFB4497136F7202004B3EE0 /* CoreGraphics.framework */; };
@@ -137,6 +137,7 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
+		523C74CE1CF222F600817D3C /* Images-3.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-3.xcassets"; sourceTree = "<group>"; };
 		70160518183796610042475D /* flash2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash2@2x.png"; sourceTree = "<group>"; };
 		7016051A1837972D0042475D /* sun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sun@2x.png"; sourceTree = "<group>"; };
 		7016051C183797850042475D /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
@@ -270,7 +271,6 @@
 		70FB7F23183D073300ACB49F /* settingsg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingsg@2x.png"; sourceTree = "<group>"; };
 		70FB7F28183D5D5100ACB49F /* shopbag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopbag@2x.png"; sourceTree = "<group>"; };
 		70FB7F2A183D5D7600ACB49F /* shopbag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopbag.png; sourceTree = "<group>"; };
-		70FB7F2C183E1CA700ACB49F /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		DCFB448F136F7202004B3EE0 /* QRcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFB4493136F7202004B3EE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DCFB4495136F7202004B3EE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -499,7 +499,7 @@
 		DCFB4484136F7202004B3EE0 = {
 			isa = PBXGroup;
 			children = (
-				70FB7F2C183E1CA700ACB49F /* images.xcassets */,
+				523C74CE1CF222F600817D3C /* Images-3.xcassets */,
 				709197FF195C705E00A792B2 /* Encoder */,
 				708553381834414C00175552 /* Icons */,
 				DCFB4499136F7202004B3EE0 /* EmbedReader */,
@@ -749,12 +749,12 @@
 				701605611839861C0042475D /* contact@2x.png in Resources */,
 				70FB7F26183D073300ACB49F /* settingsg.png in Resources */,
 				7085537F183586D700175552 /* more@2x.png in Resources */,
-				70FB7F2D183E1CA700ACB49F /* images.xcassets in Resources */,
 				7016053118382BE10042475D /* Localizable.strings in Resources */,
 				7070D9E11A7E51DF004774C6 /* global@3x.png in Resources */,
 				708553831835876B00175552 /* search@2x.png in Resources */,
 				701605231837B70B0042475D /* sun_inverse.png in Resources */,
 				708553811835873F00175552 /* search.png in Resources */,
+				523C74CF1CF222F600817D3C /* Images-3.xcassets in Resources */,
 				7070D9E91A7E5A8E004774C6 /* contact@3x.png in Resources */,
 				7016055D183984230042475D /* upload@2x.png in Resources */,
 				7070D9F11A7E5CFA004774C6 /* shopbag@3x.png in Resources */,
@@ -893,7 +893,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -929,7 +929,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

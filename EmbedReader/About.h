@@ -2,9 +2,10 @@
 //  About.h
 //  QRcode
 //
-//  Created by Pavels Lukasenko on 11/17/13.
+//  Created by John Raesly on 4/6/15.
 //
 //
+
 
 #import <UIKit/UIKit.h>
 

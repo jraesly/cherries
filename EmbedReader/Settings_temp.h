@@ -2,9 +2,10 @@
 //  Settings_temp.h
 //  QRcode
 //
-//  Created by Pavels Lukasenko on 11/18/13.
+//  Created by John Raesly on 4/6/15.
 //
 //
+
 
 #import <CoreData/CoreData.h>
 

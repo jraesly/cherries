@@ -2,9 +2,10 @@
 //  Scan_history.h
 //  QRcode
 //
-//  Created by Pavels Lukasenko on 11/12/13.
+//  Created by John Raesly on 4/6/15.
 //
 //
+
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>

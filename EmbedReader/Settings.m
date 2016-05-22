@@ -2,9 +2,10 @@
 //  Settings.m
 //  QRcode
 //
-//  Created by Pavels Lukasenko on 11/14/13.
+//  Created by John Raesly on 4/6/15.
 //
 //
+
 
 #import "Settings.h"
 #import "Settings_DB.h"

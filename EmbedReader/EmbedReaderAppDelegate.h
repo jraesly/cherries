@@ -2,8 +2,10 @@
 //  EmbedReaderAppDelegate.h
 //  EmbedReader
 //
-//  Created by spadix on 5/2/11.
+//  Created by John Raesly on 4/6/15.
 //
+//
+
 
 #import <UIKit/UIKit.h>
 

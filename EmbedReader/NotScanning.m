@@ -2,9 +2,10 @@
 //  NotScanning.m
 //  QRcode
 //
-//  Created by Pavels Lukasenko on 26/06/14.
+//  Created by John Raesly on 4/6/15.
 //
 //
+
 
 #import "NotScanning.h"
 
