@@ -85,7 +85,6 @@
 		70919818195C70C300A792B2 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 70919810195C70C300A792B2 /* split.c */; };
 		7091981B195CA49800A792B2 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70919819195CA49800A792B2 /* AddressBook.framework */; };
 		7091981C195CA49800A792B2 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7091981A195CA49800A792B2 /* AddressBookUI.framework */; };
-		70967430183142C40039CCFB /* Raloco.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7096742F183142C40039CCFB /* Raloco.xib */; };
 		709F71711831600E0058A1EB /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = 709F716F1831600E0058A1EB /* Result.m */; };
 		70BE1EBC18370C58009BD727 /* More.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BE1EBB18370C58009BD727 /* More.m */; };
 		70FB7EE2183A587700ACB49F /* iDB.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 70FB7EE1183A587700ACB49F /* iDB.xcdatamodel */; };
@@ -239,7 +238,6 @@
 		70919819195CA49800A792B2 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		7091981A195CA49800A792B2 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		7091981F195DA55800A792B2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		7096742F183142C40039CCFB /* Raloco.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Raloco.xib; sourceTree = "<group>"; };
 		709F716E1831600E0058A1EB /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
 		709F716F1831600E0058A1EB /* Result.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Result.m; sourceTree = "<group>"; };
 		70BE1EBA18370C58009BD727 /* More.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = More.h; sourceTree = "<group>"; };
@@ -556,7 +554,6 @@
 				702A8141183250E4000003BB /* Scan_history.m */,
 				709F716E1831600E0058A1EB /* Result.h */,
 				709F716F1831600E0058A1EB /* Result.m */,
-				7096742F183142C40039CCFB /* Raloco.xib */,
 				7016056A183993380042475D /* RawOutput.h */,
 				7016056B183993380042475D /* RawOutput.m */,
 				DCFB44A2136F7203004B3EE0 /* EmbedReaderAppDelegate.h */,
@@ -667,7 +664,7 @@
 				LastUpgradeCheck = 0730;
 				TargetAttributes = {
 					DCFB448E136F7202004B3EE0 = {
-						DevelopmentTeam = T8QVT6H972;
+						DevelopmentTeam = G786Y4K79T;
 					};
 				};
 			};
@@ -715,7 +712,6 @@
 				7016054618392DF60042475D /* global.png in Resources */,
 				523C74D11CF226DA00817D3C /* Default-568h@2x.png in Resources */,
 				708553791835868500175552 /* settings.png in Resources */,
-				70967430183142C40039CCFB /* Raloco.xib in Resources */,
 				70160557183983330042475D /* info@2x.png in Resources */,
 				70FB7F10183CFFD200ACB49F /* settingsfo.png in Resources */,
 				7016055F1839843C0042475D /* upload.png in Resources */,
