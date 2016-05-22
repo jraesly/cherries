@@ -77,7 +77,7 @@
     [mcv setToRecipients:[NSArray arrayWithObject:@""]];
     NSData* dtemp = [temp dataUsingEncoding:NSUTF8StringEncoding];
     
-    [mcv setMessageBody:NSLocalizedString(@"raloco_qr_scan", nill) isHTML:NO];
+    [mcv setMessageBody:NSLocalizedString(@"otwl_qr_scan", nill) isHTML:NO];
     [mcv addAttachmentData:dtemp mimeType:@"txt/csv" fileName:@"data.csv"];
    
     [self presentViewController:mcv animated:YES completion:^{
