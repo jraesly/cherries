@@ -86,14 +86,14 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     if (row == 0)
     {
         //[self performSegueWithIdentifier:@"showAbout" sender:self];
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://kenzap.com/project/qr-code-scanner/"]];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://offthewalllanguage.com"]];
         
     }else if (row == 1)
     {
        [self performSegueWithIdentifier:@"showHelp" sender:self];
     }else if (row == 2)
     {
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://itunes.apple.com/ie/app/raloco-qr-scan/id762587481"]];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@""]];
         
         //return NSLocalizedString(@"ratesub", nill);
     }else if (row == 3)

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		523C74CF1CF222F600817D3C /* Images-3.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523C74CE1CF222F600817D3C /* Images-3.xcassets */; };
+		523C74D11CF226DA00817D3C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 523C74D01CF226DA00817D3C /* Default-568h@2x.png */; };
 		70160519183796610042475D /* flash2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70160518183796610042475D /* flash2@2x.png */; };
 		7016051B1837972D0042475D /* sun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7016051A1837972D0042475D /* sun@2x.png */; };
 		7016051D183797850042475D /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 7016051C183797850042475D /* sun.png */; };
@@ -138,6 +139,7 @@
 
 /* Begin PBXFileReference section */
 		523C74CE1CF222F600817D3C /* Images-3.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-3.xcassets"; sourceTree = "<group>"; };
+		523C74D01CF226DA00817D3C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		70160518183796610042475D /* flash2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash2@2x.png"; sourceTree = "<group>"; };
 		7016051A1837972D0042475D /* sun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sun@2x.png"; sourceTree = "<group>"; };
 		7016051C183797850042475D /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
@@ -499,6 +501,7 @@
 		DCFB4484136F7202004B3EE0 = {
 			isa = PBXGroup;
 			children = (
+				523C74D01CF226DA00817D3C /* Default-568h@2x.png */,
 				523C74CE1CF222F600817D3C /* Images-3.xcassets */,
 				709197FF195C705E00A792B2 /* Encoder */,
 				708553381834414C00175552 /* Icons */,
@@ -710,6 +713,7 @@
 				708553621834ECB500175552 /* clock.png in Resources */,
 				DCFB449E136F7203004B3EE0 /* InfoPlist.strings in Resources */,
 				7016054618392DF60042475D /* global.png in Resources */,
+				523C74D11CF226DA00817D3C /* Default-568h@2x.png in Resources */,
 				708553791835868500175552 /* settings.png in Resources */,
 				70967430183142C40039CCFB /* Raloco.xib in Resources */,
 				70160557183983330042475D /* info@2x.png in Resources */,
